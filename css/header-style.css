@@ -54,14 +54,14 @@ nav.navbar.bootsnav{
     -webkit-border-radius: 0px;
     -o-border-radius: 0px;
     border-radius: 0px;
-    background-color: #fff;
+    background-color:#3e98a4;
     border: none;
     border-bottom: solid 1px #e0e0e0;
     z-index: 100;
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
-    color: #6f6f6f;
+    color:white;
     background-color: transparent !important;
 }
 
@@ -80,6 +80,7 @@ nav.navbar.bootsnav .navbar-toggle{
     font-size: 18px;
     position: relative;
     top: 5px;
+    
 }
 
 nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
@@ -99,7 +100,7 @@ ul.menu-col{
 }
 
 ul.menu-col li a{
-    color: #6f6f6f;
+    color: white;
 }
 
 ul.menu-col li a:hover,
@@ -255,7 +256,7 @@ li.close-full-menu{
 }
 
 .attr-nav > ul > li > a{
-    color: #6f6f6f;
+    color: white;
     display: block;
     padding: 28px 15px;
     position: relative;
@@ -618,7 +619,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
         padding: 10px 15px;
         border-bottom: solid 1px #eee;
-        color: #6f6f6f;
+        color: white;
     }
 
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li:last-child > a{
@@ -700,7 +701,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         width: 100%;
         margin-bottom: 0;
         border-bottom: none;
-        color: #6f6f6f;
+        color: white;
     }
 
     nav.navbar.bootsnav.on ul.dropdown-menu.megamenu-content .content{
@@ -997,7 +998,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
     nav.bootsnav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a{
         padding:  5px 15px;
-        color: #6f6f6f;
+        color: white;
         border: none;
     }
 
@@ -1035,7 +1036,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         letter-spacing: 0px;
         margin-bottom: 0;
         cursor: pointer;
-        color: #6f6f6f;
+        color: white;
     }
 
     nav.bootsnav.navbar-sidebar .dropdown .megamenu-content .col-menu .title:before{
@@ -1173,7 +1174,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         width: 100%;
         border-bottom: solid 1px #e0e0e0;
         padding: 10px 0;
-        color: #6f6f6f;
+        color: white;
     }
 
     nav.navbar.bootsnav ul.nav ul.dropdown-menu li a:hover,
@@ -1208,7 +1209,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         margin-bottom: 0;
         cursor: pointer;
         border-bottom: solid 1px #e0e0e0;
-        color: #6f6f6f;
+        color: white;
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -1801,7 +1802,7 @@ nav.navbar-inverse.navbar-full .navbar-collapse .wrap-full-menu{
 
 nav.navbar-inverse.navbar-full .navbar-toggle{
     background-color: #222 !important;
-    color: #6f6f6f;
+    color: white;
 }
 
 @media (min-width: 1024px) {
