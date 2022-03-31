@@ -31,9 +31,11 @@
   background-color:green;
 
 }
-.gbt{
-    
- 
+#myBtnContainer{
+    padding-top: 10px;
+}
+.brt{
+    padding-top: 20px;
 }
 
 .btn{
@@ -51,7 +53,10 @@
     video{
         width: 600px;
     }
-    
+    .mg{
+        display: none;
+    }
+       
     .cong{
         background-color: lightgrey;
       width: 610px;
@@ -69,7 +74,10 @@
     video{
         width: 90%;
     }
-    
+    .desg{
+        display: none;
+    }
+       
     .cong{
         background-color: lightgrey;
       width: 98%;
