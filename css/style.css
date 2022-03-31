@@ -357,6 +357,10 @@ figure.effect-bubba h2{
   text-align: center;
   color: #333;
 }
+.cinput{
+  width:100%;
+  height: 80px;
+}
 
 /*End section title heading css*/
 
