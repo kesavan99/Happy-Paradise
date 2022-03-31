@@ -11,13 +11,14 @@
 
     <title>Happy Paradise</title> 
 
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.carousel.css">
-    <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plugins/owl.carousel-2/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./plugins/owl.carousel-2/assets/owl.theme.default.min.css">
     <!-- theme css -->
-    <link rel="stylesheet" href="fonts/flaticon.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./fonts/flaticon.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/gallery.css">
     <!-- end Header Nav-brand-top -->
 
     <!-- endinject -->
@@ -83,271 +84,103 @@
 
 
 
-    <section class="latest-gallery text-center">
 
-        <div class="container">            
 
-            <ul class="post-filter list-inline">
 
-                <li class="active" data-filter=".filter-item">
 
-                    <span>All</span>
 
-                </li>
 
-                <li data-filter=".Indoor-Services">
 
-                    <span>Landscaping Services</span>
 
-                </li>
 
-                <li data-filter=".Old-Wiring-Faults">
 
-                    <span>Lawn Service</span>
 
-                </li>
 
-                <li data-filter=".Out-door-repairing">
 
-                    <span>Snow Remove </span>
 
-                </li>
 
-                <li data-filter=".Shortcircuits">
 
-                    <span>Retaining Wall</span>
 
-                </li>
 
-            </ul>
 
 
 
-            <div class="row masonary-layout filter-layout">
 
-                <div class="col-md-6 col-sm-6 col-xs-12 filter-item">
 
-                    <div class="single-item">
 
-                        <div class="img-box">
 
-                            <img src="images/gallery/1.jpg" alt="Awesome Image"/>
 
-                            <div class="overlay">
 
-                                <div class="inner">
 
-                                    <div class="social">
 
-                                        <a href="images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
 
-                                        <h4>title here</h4>
 
-                                    </div>
 
-                                    
+    <h2>Filter DIV Elements</h2>
 
-                                </div>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('danceimg')"> Dance photo</button>
+      <button class="btn" onclick="filterSelection('animals')"> Dance video</button>
+      <button class="btn" onclick="filterSelection('fruits')">Painting</button>
+      <button class="btn" onclick="filterSelection('colors')"> Video</button>
+    </div>
+    
+    <div class="container">
+        <div class="filterDiv danceimg"><img src="./images/resource/454545.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan1.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan2.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan3.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan4.jpg" /></div>
+        
+        <div class="filterDiv danceimg"><img src="./images/resource/dan5.jpg" /></div>
+        
+        <div class="filterDiv danceimg"><img src="./images/resource/dan6.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan7.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/dan8.jpg" /></div>
+        <div class="filterDiv danceimg"><img src="./images/resource/welcome-img.jpg" /></div>
+      <div class="filterDiv colors fruits">Orange</div>
+      <div class="filterDiv cars">Volvo</div>
+      <div class="filterDiv colors">Red</div>
+      <div class="filterDiv cars animals">Mustang</div>
+      <div class="filterDiv colors">Blue</div>
+      <div class="filterDiv animals">Cat</div>
+      <div class="filterDiv animals">Dog</div>
+      <div class="filterDiv fruits">Melon</div>
+      <div class="filterDiv fruits animals">Kiwi</div>
+      <div class="filterDiv fruits">Banana</div>
+      <div class="filterDiv fruits">Lemon</div>
+      <div class="filterDiv animals">Cow</div>
+    </div>
+    
 
-                            </div>
 
-                            
 
-                        </div>
 
-                        
 
-                    </div>
 
-                </div>
 
 
 
-                <div class="col-md-6 col-sm-6 col-xs-12 filter-item Indoor-Services Out-door-repairing">
 
-                    <div class="single-item">
 
-                        <div class="img-box">
 
-                            <img src="images/gallery/2.jpg" alt="Awesome Image"/>
 
-                            <div class="overlay">
 
-                                <div class="inner">
 
-                                    <div class="social">
 
-                                        <a href="images/gallery/2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
 
-                                        <h4>title here</h4>
 
-                                    </div>
 
-                                    
 
-                                </div>
 
-                            </div>
 
-                        </div>
 
-                        
 
-                    </div>
 
-                </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12 filter-item Shortcircuits  Old-Wiring-Faults">
 
-                    <div class="single-item">
-
-                        <div class="img-box">
-
-                            <img src="images/gallery/3.jpg" alt="Awesome Image"/>
-
-                            <div class="overlay">
-
-                                <div class="inner">
-
-                                    <div class="social">
-
-                                        <a href="images/gallery/3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
-
-                                        <h4>title here</h4>
-
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 filter-item Indoor-Services Out-door-repairing Old-Wiring-Faults">
-
-                    <div class="single-item">
-
-                        <div class="img-box">
-
-                            <img src="images/gallery/4.jpg" alt="Awesome Image"/>
-
-                            <div class="overlay">
-
-                                <div class="inner">
-
-                                    <div class="social">
-
-                                        <a href="images/gallery/4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
-
-                                        <h4>title here</h4>
-
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 filter-item Shortcircuits Out-door-repairing Old-Wiring-Faults">
-
-                    <div class="single-item">
-
-                        <div class="img-box">
-
-                            <img src="images/gallery/5.jpg" alt="Awesome Image"/>
-
-                            <div class="overlay">
-
-                                <div class="inner">
-
-                                    <div class="social">
-
-                                        <a href="images/gallery/5.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
-
-                                        <h4>title here</h4>
-
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 filter-item Out-door-repairing Indoor-Services video Shortcircuits Old-Wiring-Faults">
-
-                    <div class="single-item">
-
-                        <div class="img-box">
-
-                            <img src="images/gallery/6.jpg" alt="Awesome Image"/>
-
-                            <div class="overlay">
-
-                                <div class="inner">
-
-                                    <div class="social">
-
-                                        <a href="images/gallery/6.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
-
-                                        <h4>title here</h4>
-
-                                    </div>
-
-                                    
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        
-
-                    </div>
-
-                </div>
-
-                
-
-                
-
-                
-
-            </div><!-- /.row -->
-
-        </div><!-- /.container -->
-
-        </section><!-- /.latest-gallery -
-
-
-
-        <!-- Start Footer -->    
 
 
 
@@ -436,25 +269,25 @@
     
     
     
-    <!-- Start js -->
-    <script data-cfasync="false" src="./js/slide.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/owl.carousel-2/owl.carousel.min.js"></script>
-    <!-- Start slider js -->
-    <script src="js/slider.js"></script>
-    <!-- theme js -->
-    <script src="js/theme.js"></script>
-    <!-- Start wow js -->
-    <script src="js/wow.js"></script>
-    <!-- Start gallery js -->
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/gallery.js"></script>
-    
-    <!-- end  -->
-    </body>
-    </html>
-    
-    
+
+<!-- Start js -->
+<script data-cfasync="false" src="./js/slide.js"></script>
+<script src="./js/plugins.js"></script>
+<script src="./plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="./plugins/owl.carousel-2/owl.carousel.min.js"></script>
+<!-- Start slider js -->
+<script src="./js/slider.js"></script>
+<!-- theme js -->
+<script src="./js/theme.js"></script>
+<!-- Start wow js -->
+<script src="./js/wow.js"></script>
+<!-- Start gallery js -->
+<script src="./js/jquery.fancybox.pack.js"></script>
+<script src="./js/jquery.mixitup.min.js"></script>
+<script src="./js/isotope.js"></script>
+<script src="./js/gallery.js"></script>
+
+<!-- end  -->
+</body>
+</html>
+
