@@ -49,7 +49,7 @@
 }
 
 
-.contact-form-container p{
+.contact-form-container .tt-contact-info p{
 color: #ffffff;
 
 }
@@ -58,7 +58,9 @@ color: #ffffff;
     background-image: url('../images/resource/cont.jpg');
 
 }
-
+.contbr{
+    background-image: url('../images/resource/contbr.jpg');
+}
 .tt-contact-icon {
 
     width: 63px;

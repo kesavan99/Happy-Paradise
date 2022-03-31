@@ -47,12 +47,16 @@ textarea,
 button {
   outline: none;
 }
+
 p {
   color: #333;
   line-height: 26px;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   /*margin-top: -7px;*/
+}
+.drop p{
+  color:black;
 }
 img {
   max-width: 100%;
@@ -94,6 +98,10 @@ ul,li{
 .btn-xs {
   padding: 11px 15px 10px;
   display: inline-block;
+}
+.gallbr{
+
+  background-image: url('../images/resource/gallery.jpg');
 }
 .theme-btn{
   color: #FFF;
