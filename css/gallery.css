@@ -12,10 +12,17 @@
 .show {
   display: block;
 }
-
-.container {
-  margin-top: 20px;
-  overflow: hidden;
+.ggl{
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+#pd{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
 }
 
 /* Style the buttons */
@@ -47,7 +54,12 @@
   
 }
 
-
+.gty{
+    background-image: url('../images/resource/pattern-bg.jpg');
+}
+.paint {
+    padding-top: 5px;
+}
 
 @media only screen and (min-width: 1169px) {
     video{
@@ -62,6 +74,16 @@
       width: 610px;
       border: 5px solid #0093AB;
      
+    }
+    .ggl{
+      width: 900px;
+      height: 600px;
+        
+    }
+    .igg{
+      width: 850px;
+      height: 550px;
+        
     }
 .imgg{
     width: 900px;
