@@ -2,7 +2,7 @@
 .filterDiv {
   float: left;
 
-  width: 100px;
+
   line-height: 100px;
   text-align: center;
   margin: 2px;
@@ -28,9 +28,19 @@
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color:green;
+
+}
+.gbt{
+    
+ 
 }
 
+.btn{
+    background-color: #0093AB;
+    color: white;
+   
+}
 .btn.active {
   
 }
@@ -48,20 +58,12 @@
       border: 5px solid #0093AB;
      
     }
-    .imgg img{
-        width: 680px;
-        height: 250px; ;
-    }
+.imgg{
+    width: 900px;
+    height: 600px;
     
-    .imgg{
-        background-color: lightgrey;
-        width: 700px;
-        height: 300px;
-        border: 25px solid #0093AB;
-        padding-bottom: 55px;
-        padding-left: 25px;
-       
-    }
+}    
+   
 
 }@media only screen and (max-width: 1169px) {
     video{
